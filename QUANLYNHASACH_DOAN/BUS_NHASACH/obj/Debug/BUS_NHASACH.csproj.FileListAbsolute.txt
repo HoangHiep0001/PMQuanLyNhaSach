@@ -1,0 +1,11 @@
+D:\quanlynhasach\QUANLYNHASACH_DOAN\BUS_NHASACH\bin\Debug\BUS_NHASACH.dll
+D:\quanlynhasach\QUANLYNHASACH_DOAN\BUS_NHASACH\bin\Debug\BUS_NHASACH.pdb
+D:\quanlynhasach\QUANLYNHASACH_DOAN\BUS_NHASACH\bin\Debug\DAL_NHASACH.dll
+D:\quanlynhasach\QUANLYNHASACH_DOAN\BUS_NHASACH\bin\Debug\DTO_NHASACH.dll
+D:\quanlynhasach\QUANLYNHASACH_DOAN\BUS_NHASACH\bin\Debug\DAL_NHASACH.pdb
+D:\quanlynhasach\QUANLYNHASACH_DOAN\BUS_NHASACH\bin\Debug\DTO_NHASACH.pdb
+D:\quanlynhasach\QUANLYNHASACH_DOAN\BUS_NHASACH\obj\Debug\BUS_NHASACH.csprojAssemblyReference.cache
+D:\quanlynhasach\QUANLYNHASACH_DOAN\BUS_NHASACH\obj\Debug\BUS_NHASACH.csproj.CoreCompileInputs.cache
+D:\quanlynhasach\QUANLYNHASACH_DOAN\BUS_NHASACH\obj\Debug\BUS_NHASACH.csproj.CopyComplete
+D:\quanlynhasach\QUANLYNHASACH_DOAN\BUS_NHASACH\obj\Debug\BUS_NHASACH.dll
+D:\quanlynhasach\QUANLYNHASACH_DOAN\BUS_NHASACH\obj\Debug\BUS_NHASACH.pdb
