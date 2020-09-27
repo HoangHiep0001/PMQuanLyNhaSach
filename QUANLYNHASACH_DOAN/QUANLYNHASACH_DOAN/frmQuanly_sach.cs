@@ -23,7 +23,7 @@ namespace QUANLYNHASACH_DOAN
             try
             {
                 con.Open();
-                string SQL = "SELECT * FROM DAUSACH ";
+                string SQL = "select MADS,TENSACH,TENTL,TACGIA,SOLUONG,DONGIA from DAUSACH ds join THELOAI tl on ds.MATL = tl.MATL";
 
                 SqlCommand cmd = new SqlCommand(SQL, con);
                 adt.SelectCommand = cmd;
@@ -48,7 +48,7 @@ namespace QUANLYNHASACH_DOAN
             try
             {
 
-                SqlDataAdapter da = new SqlDataAdapter("Select MATL From THELOAI", con);
+                SqlDataAdapter da = new SqlDataAdapter("Select * From THELOAI", con);
                 da.Fill(dt);
                 return (dt);
             }
@@ -70,7 +70,7 @@ namespace QUANLYNHASACH_DOAN
         {
             dgvBook.DataSource = Display();
             cboTheloai.DataSource = Display1();
-            cboTheloai.DisplayMember = "MATL";
+            cboTheloai.DisplayMember = "TENTL";
             cboTheloai.ValueMember = "MATL";
         }
     
@@ -147,7 +147,7 @@ namespace QUANLYNHASACH_DOAN
                     dr = MessageBox.Show("Bạn có muốn thêm không ?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                     if (dr == DialogResult.Yes)
                     {
-                    string SQL = string.Format("Insert Into DAUSACH ( TENSACH, MATL, TACGIA, SOLUONG, DONGIA) Values ( N'{0}', N'{1}', N'{2}', '{3}', '{4}')", tbTensach.Text, cboTheloai.Text, tbTacgia.Text, tbSoluong.Text, tbDongia.Text);
+                    string SQL = string.Format("Insert Into DAUSACH ( TENSACH, MATL, TACGIA, SOLUONG, DONGIA) Values ( N'{0}', N'{1}', N'{2}', '{3}', '{4}')", tbTensach.Text, cboTheloai.SelectedValue, tbTacgia.Text, tbSoluong.Text, tbDongia.Text);
 
                     SqlCommand cmd = new SqlCommand(SQL, con);
                     cmd.ExecuteNonQuery();
@@ -220,7 +220,7 @@ namespace QUANLYNHASACH_DOAN
                 dr = MessageBox.Show("Bạn có muốn thay đổi không ?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (dr == DialogResult.Yes)
                 {
-                    string SQL = string.Format("Update DAUSACH Set TENSACH = N'{1}', MATL = '{2}', TACGIA = N'{3}', SOLUONG = '{4}', DONGIA = '{5}' Where MADS = '{0}'", tbMads.Text, tbTensach.Text, cboTheloai.Text, tbTacgia.Text, tbSoluong.Text, tbDongia.Text);
+                    string SQL = string.Format("Update DAUSACH Set TENSACH = N'{1}', MATL = '{2}', TACGIA = N'{3}', SOLUONG = '{4}', DONGIA = '{5}' Where MADS = '{0}'", tbMads.Text, tbTensach.Text, cboTheloai.SelectedValue, tbTacgia.Text, tbSoluong.Text, tbDongia.Text);
                     SqlCommand cmd = new SqlCommand(SQL, con);
                     cmd.ExecuteNonQuery();
 

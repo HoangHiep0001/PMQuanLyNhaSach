@@ -285,7 +285,7 @@
             // 
             // MATL
             // 
-            this.MATL.DataPropertyName = "MATL";
+            this.MATL.DataPropertyName = "TENTL";
             this.MATL.HeaderText = "Thể loại";
             this.MATL.MinimumWidth = 6;
             this.MATL.Name = "MATL";
