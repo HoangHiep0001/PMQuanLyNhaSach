@@ -7,3 +7,12 @@ D:\quanlynhasach\QUANLYNHASACH_DOAN\DAL_NHASACH\obj\Debug\DAL_NHASACH.csproj.Cor
 D:\quanlynhasach\QUANLYNHASACH_DOAN\DAL_NHASACH\obj\Debug\DAL_NHASACH.csproj.CopyComplete
 D:\quanlynhasach\QUANLYNHASACH_DOAN\DAL_NHASACH\obj\Debug\DAL_NHASACH.dll
 D:\quanlynhasach\QUANLYNHASACH_DOAN\DAL_NHASACH\obj\Debug\DAL_NHASACH.pdb
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\DAL_NHASACH\bin\Debug\DAL_NHASACH.dll
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\DAL_NHASACH\bin\Debug\DAL_NHASACH.pdb
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\DAL_NHASACH\bin\Debug\DTO_NHASACH.dll
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\DAL_NHASACH\bin\Debug\DTO_NHASACH.pdb
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\DAL_NHASACH\obj\Debug\DAL_NHASACH.csprojAssemblyReference.cache
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\DAL_NHASACH\obj\Debug\DAL_NHASACH.csproj.CoreCompileInputs.cache
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\DAL_NHASACH\obj\Debug\DAL_NHASACH.csproj.CopyComplete
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\DAL_NHASACH\obj\Debug\DAL_NHASACH.dll
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\DAL_NHASACH\obj\Debug\DAL_NHASACH.pdb

@@ -26,7 +26,7 @@ namespace QUANLYNHASACH_DOAN.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-VSOEAK5M;Initial Catalog=DOAN_QUANLYNHASACH;Integrated Securit" +
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-JBEGP9H;Initial Catalog=DOAN_QUANLYNHASACH;Integrated Securit" +
             "y=True")]
         public string DOAN_QUANLYNHASACHConnectionString {
             get {

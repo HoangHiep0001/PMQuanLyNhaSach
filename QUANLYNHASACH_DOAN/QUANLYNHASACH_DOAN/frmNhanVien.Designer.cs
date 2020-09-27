@@ -131,6 +131,7 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin nhân viên";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // bntXoa
             // 
@@ -332,7 +333,7 @@
             // 
             // MACV
             // 
-            this.MACV.DataPropertyName = "MACV";
+            this.MACV.DataPropertyName = "TENCV";
             this.MACV.HeaderText = "Chức vụ";
             this.MACV.MinimumWidth = 6;
             this.MACV.Name = "MACV";

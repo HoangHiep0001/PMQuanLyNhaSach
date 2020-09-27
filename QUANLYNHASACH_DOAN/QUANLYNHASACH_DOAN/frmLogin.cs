@@ -40,13 +40,13 @@ namespace QUANLYNHASACH_DOAN
         private void btnLogin_Click(object sender, EventArgs e)
         {
             int manv = BUS_TaiKhoan.Instance.layMaNVTheoUserNamePassWord(tbUserName.Text, tbPassWord.Text);
-            if (BUS_NhanVien.Instance.layChucVuNVTheoMaNV(manv)=="CV001")
+            if (BUS_NhanVien.Instance.layChucVuNVTheoMaNV(manv)=="MAH001")
             {
                 int manv_login = BUS_TaiKhoan.Instance.layMaNVTheoUserNamePassWord(tbUserName.Text,tbPassWord.Text);
                 Form frm = new frmNhanvien_Quanly(manv_login);
                 frm.ShowDialog();
             }
-            else if(BUS_NhanVien.Instance.layChucVuNVTheoMaNV(manv) == "CV002")
+            else if(BUS_NhanVien.Instance.layChucVuNVTheoMaNV(manv) == "MAH002")
             {
                 int manv_login = BUS_TaiKhoan.Instance.layMaNVTheoUserNamePassWord(tbUserName.Text, tbPassWord.Text);
                 Form frm = new frmNhanVienBanHang(manv_login);

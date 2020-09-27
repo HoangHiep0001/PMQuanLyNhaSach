@@ -20,7 +20,7 @@ namespace DAL_NHASACH
 
         private DataProvider() { }
 
-        private string connectionSTR = "Data Source=LAPTOP-VSOEAK5M;Initial Catalog=DOAN_QUANLYNHASACH;Integrated Security=True";
+        private string connectionSTR = "Data Source=DESKTOP-JBEGP9H;Initial Catalog=DOAN_QUANLYNHASACH;Integrated Security=True";
 
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {

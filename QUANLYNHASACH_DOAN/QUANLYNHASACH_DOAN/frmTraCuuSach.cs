@@ -14,7 +14,7 @@ namespace QUANLYNHASACH_DOAN
     public partial class frmTraCuuSach : Form
     {
         public DataTable dt;
-        public SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-VSOEAK5M;Initial Catalog=DOAN_QUANLYNHASACH;Integrated Security=True");
+        public SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-JBEGP9H;Initial Catalog=DOAN_QUANLYNHASACH;Integrated Security=True");
         public DataTable Display()
         {
             DataTable tblSach = new DataTable();
@@ -41,6 +41,10 @@ namespace QUANLYNHASACH_DOAN
         private void LoadData()
         {
             dgvSach.DataSource = Display();
+            cbx_TheLoai.DataSource = Display1();
+            cbx_TheLoai.DisplayMember = "TENTL";
+            cbx_TheLoai.ValueMember = "MATL";
+            cbx_TheLoai.SelectedIndex = -1;
         }
         public DataTable Tracuu()
         {
@@ -50,9 +54,10 @@ namespace QUANLYNHASACH_DOAN
             {
                 string str = tbTensach.Text;
                 string tacgia = tbTacgia.Text;
-                string theloai = tbTheloai.Text;
+                string theloai = cbx_TheLoai.Text;
                 con.Open();
-                string SQL = "select TENSACH,TENTL,TACGIA,DONGIA,SOLUONG from DAUSACH ds, THELOAI tl where ds.MATL = tl.MATL and TENSACH LIKE '%"+str+ "%' OR TACGIA LIKE '%" + TACGIA + "%' " ;
+                string SQL = "select TENSACH,TENTL,TACGIA,DONGIA,SOLUONG from DAUSACH ds join THELOAI tl " +
+                    "           on ds.MATL = tl.MATL where TENSACH LIKE '%"+str+ "%' AND TACGIA LIKE '%" + tacgia + "%' AND TENTL LIKE '%"+theloai+"%'" ;
                 SqlCommand cmd = new SqlCommand(SQL, con);
                 SqlDataAdapter adt = new SqlDataAdapter();
                 adt.SelectCommand = cmd;
@@ -92,7 +97,29 @@ namespace QUANLYNHASACH_DOAN
             LoadData();
 
         }
-            
+
+        public DataTable Display1()
+        {
+            DataTable dt = new DataTable();
+            con.Open();
+            try
+            {
+
+                SqlDataAdapter da = new SqlDataAdapter("Select * From THELOAI", con);
+                da.Fill(dt);
+                return (dt);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return null;
+        }
+
         private void frmTraCuuSach_Load(object sender, EventArgs e)
         {
             LoadData();

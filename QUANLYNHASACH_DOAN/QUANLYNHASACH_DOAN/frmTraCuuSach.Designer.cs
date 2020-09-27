@@ -29,9 +29,11 @@
         private void InitializeComponent()
         {
             this.grbox = new System.Windows.Forms.GroupBox();
-            this.tbTheloai = new System.Windows.Forms.TextBox();
             this.tbTacgia = new System.Windows.Forms.TextBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnTracuu = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnHuy = new System.Windows.Forms.Button();
             this.tbTensach = new System.Windows.Forms.TextBox();
@@ -44,19 +46,17 @@
             this.TACGIA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DONGIA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SOLUONG = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.cbx_TheLoai = new System.Windows.Forms.ComboBox();
             this.grbox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvSach)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvSach)).BeginInit();
             this.SuspendLayout();
             // 
             // grbox
             // 
-            this.grbox.Controls.Add(this.tbTheloai);
+            this.grbox.Controls.Add(this.cbx_TheLoai);
             this.grbox.Controls.Add(this.tbTacgia);
             this.grbox.Controls.Add(this.pictureBox3);
             this.grbox.Controls.Add(this.btnTracuu);
@@ -69,34 +69,37 @@
             this.grbox.Controls.Add(this.label3);
             this.grbox.Controls.Add(this.label4);
             this.grbox.Location = new System.Drawing.Point(23, 14);
-            this.grbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grbox.Margin = new System.Windows.Forms.Padding(4);
             this.grbox.Name = "grbox";
-            this.grbox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grbox.Padding = new System.Windows.Forms.Padding(4);
             this.grbox.Size = new System.Drawing.Size(821, 164);
             this.grbox.TabIndex = 8;
             this.grbox.TabStop = false;
             this.grbox.Text = "Thông tin tra cứu";
             // 
-            // tbTheloai
-            // 
-            this.tbTheloai.Location = new System.Drawing.Point(567, 39);
-            this.tbTheloai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tbTheloai.Name = "tbTheloai";
-            this.tbTheloai.Size = new System.Drawing.Size(188, 22);
-            this.tbTheloai.TabIndex = 24;
-            // 
             // tbTacgia
             // 
             this.tbTacgia.Location = new System.Drawing.Point(159, 80);
-            this.tbTacgia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbTacgia.Margin = new System.Windows.Forms.Padding(4);
             this.tbTacgia.Name = "tbTacgia";
             this.tbTacgia.Size = new System.Drawing.Size(259, 22);
             this.tbTacgia.TabIndex = 23;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::QUANLYNHASACH_DOAN.Properties.Resources.search;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(465, 128);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(33, 28);
+            this.pictureBox3.TabIndex = 22;
+            this.pictureBox3.TabStop = false;
+            // 
             // btnTracuu
             // 
             this.btnTracuu.Location = new System.Drawing.Point(499, 128);
-            this.btnTracuu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTracuu.Margin = new System.Windows.Forms.Padding(4);
             this.btnTracuu.Name = "btnTracuu";
             this.btnTracuu.Size = new System.Drawing.Size(76, 28);
             this.btnTracuu.TabIndex = 21;
@@ -104,10 +107,32 @@
             this.btnTracuu.UseVisualStyleBackColor = true;
             this.btnTracuu.Click += new System.EventHandler(this.btnTracuu_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::QUANLYNHASACH_DOAN.Properties.Resources.exit1;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(705, 128);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(33, 28);
+            this.pictureBox2.TabIndex = 20;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::QUANLYNHASACH_DOAN.Properties.Resources.delete1;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(588, 128);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(33, 28);
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            // 
             // btnExit
             // 
             this.btnExit.Location = new System.Drawing.Point(739, 128);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(71, 28);
             this.btnExit.TabIndex = 18;
@@ -118,7 +143,7 @@
             // btnHuy
             // 
             this.btnHuy.Location = new System.Drawing.Point(621, 128);
-            this.btnHuy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHuy.Margin = new System.Windows.Forms.Padding(4);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(76, 28);
             this.btnHuy.TabIndex = 17;
@@ -129,7 +154,7 @@
             // tbTensach
             // 
             this.tbTensach.Location = new System.Drawing.Point(159, 36);
-            this.tbTensach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbTensach.Margin = new System.Windows.Forms.Padding(4);
             this.tbTensach.Name = "tbTensach";
             this.tbTensach.Size = new System.Drawing.Size(259, 22);
             this.tbTensach.TabIndex = 15;
@@ -148,7 +173,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(499, 46);
+            this.label3.Location = new System.Drawing.Point(499, 41);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(59, 17);
@@ -175,7 +200,7 @@
             this.DONGIA,
             this.SOLUONG});
             this.dgvSach.Location = new System.Drawing.Point(23, 220);
-            this.dgvSach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvSach.Margin = new System.Windows.Forms.Padding(4);
             this.dgvSach.Name = "dgvSach";
             this.dgvSach.RowHeadersWidth = 51;
             this.dgvSach.Size = new System.Drawing.Size(821, 286);
@@ -221,38 +246,12 @@
             this.SOLUONG.Name = "SOLUONG";
             this.SOLUONG.Width = 125;
             // 
-            // pictureBox3
+            // cbx_TheLoai
             // 
-            this.pictureBox3.BackgroundImage = global::QUANLYNHASACH_DOAN.Properties.Resources.search;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(465, 128);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(33, 28);
-            this.pictureBox3.TabIndex = 22;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::QUANLYNHASACH_DOAN.Properties.Resources.exit1;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(705, 128);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(33, 28);
-            this.pictureBox2.TabIndex = 20;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::QUANLYNHASACH_DOAN.Properties.Resources.delete1;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(588, 128);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(33, 28);
-            this.pictureBox1.TabIndex = 19;
-            this.pictureBox1.TabStop = false;
+            this.cbx_TheLoai.Location = new System.Drawing.Point(565, 39);
+            this.cbx_TheLoai.Name = "cbx_TheLoai";
+            this.cbx_TheLoai.Size = new System.Drawing.Size(173, 24);
+            this.cbx_TheLoai.TabIndex = 24;
             // 
             // frmTraCuuSach
             // 
@@ -261,7 +260,7 @@
             this.ClientSize = new System.Drawing.Size(863, 519);
             this.Controls.Add(this.dgvSach);
             this.Controls.Add(this.grbox);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmTraCuuSach";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -269,10 +268,10 @@
             this.Load += new System.EventHandler(this.frmTraCuuSach_Load);
             this.grbox.ResumeLayout(false);
             this.grbox.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvSach)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvSach)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -296,7 +295,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn TACGIA;
         private System.Windows.Forms.DataGridViewTextBoxColumn DONGIA;
         private System.Windows.Forms.DataGridViewTextBoxColumn SOLUONG;
-        private System.Windows.Forms.TextBox tbTheloai;
         private System.Windows.Forms.TextBox tbTacgia;
+        private System.Windows.Forms.ComboBox cbx_TheLoai;
     }
 }

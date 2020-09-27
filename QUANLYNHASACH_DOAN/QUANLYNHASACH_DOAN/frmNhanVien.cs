@@ -14,7 +14,7 @@ namespace QUANLYNHASACH_DOAN
     public partial class frmNhanVien : Form
     {
         public DataTable dt;
-        public SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-VSOEAK5M;Initial Catalog=DOAN_QUANLYNHASACH;Integrated Security=True");
+        public SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-JBEGP9H;Initial Catalog=DOAN_QUANLYNHASACH;Integrated Security=True");
         public DataTable Display()
         {
             DataTable tblStaff = new DataTable();
@@ -22,7 +22,7 @@ namespace QUANLYNHASACH_DOAN
             try
             {
                 con.Open();     
-                string SQL = "SELECT * FROM NHANVIEN ";
+                string SQL = "select MANV ,HOTEN,SDT,DIACHI,EMAIL,TENCV from NHANVIEN nv join CHUCVU cv on cv.MACV = nv.MACV ";
 
                 SqlCommand cmd = new SqlCommand(SQL, con);
                 adt.SelectCommand = cmd;
@@ -47,7 +47,7 @@ namespace QUANLYNHASACH_DOAN
             try
             {
 
-                SqlDataAdapter da = new SqlDataAdapter("Select MACV From CHUCVU", con);
+                SqlDataAdapter da = new SqlDataAdapter("Select * From CHUCVU", con);
                 da.Fill(dt);
                 return (dt);
             }
@@ -93,7 +93,7 @@ namespace QUANLYNHASACH_DOAN
         {
             dgvStaff.DataSource = Display();
             cboChucvu.DataSource = Display1();
-            cboChucvu.DisplayMember = "MACV";
+            cboChucvu.DisplayMember = "TENCV";
             cboChucvu.ValueMember = "MACV";
         }
 
@@ -239,6 +239,11 @@ namespace QUANLYNHASACH_DOAN
             tbDiachi.Text = dgvStaff.CurrentRow.Cells[3].Value.ToString();
             tbEmail.Text = dgvStaff.CurrentRow.Cells[4].Value.ToString();
             cboChucvu.Text = dgvStaff.CurrentRow.Cells[5].Value.ToString();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

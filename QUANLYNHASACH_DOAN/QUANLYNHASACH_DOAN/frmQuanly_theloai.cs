@@ -14,7 +14,7 @@ namespace QUANLYNHASACH_DOAN
     public partial class frmQuanly_theloai : Form
     {
         public DataTable dt;
-        public SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-VSOEAK5M;Initial Catalog=DOAN_QUANLYNHASACH;Integrated Security=True");
+        public SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-JBEGP9H;Initial Catalog=DOAN_QUANLYNHASACH;Integrated Security=True");
         public DataTable Display()
         {
             DataTable tblCategory = new DataTable();

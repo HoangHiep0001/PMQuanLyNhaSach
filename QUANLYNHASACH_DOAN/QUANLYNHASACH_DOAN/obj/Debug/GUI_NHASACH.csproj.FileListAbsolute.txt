@@ -28,3 +28,33 @@ D:\quanlynhasach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\bin\Debug\DAL_NHASACH.pdb
 D:\quanlynhasach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\GUI_NHASACH.csproj.CopyComplete
 D:\quanlynhasach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.exe
 D:\quanlynhasach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.pdb
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\bin\Debug\QUANLYNHASACH_DOAN.exe.config
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\bin\Debug\QUANLYNHASACH_DOAN.exe
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\bin\Debug\QUANLYNHASACH_DOAN.pdb
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\bin\Debug\BUS_NHASACH.dll
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\bin\Debug\DTO_NHASACH.dll
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\bin\Debug\DAL_NHASACH.dll
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\bin\Debug\BUS_NHASACH.pdb
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\bin\Debug\DTO_NHASACH.pdb
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\bin\Debug\DAL_NHASACH.pdb
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\GUI_NHASACH.csprojAssemblyReference.cache
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.frmBaocao.resources
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.frmDoiMatKhau.resources
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.frmHoaDon.resources
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.frmKhachhang.resources
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.Login.resources
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.frmNhacuncap.resources
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.frmNhanVien.resources
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.frmQuanly_sach.resources
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.frmQuanly_theloai.resources
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.frmThongtinNhanVien.resources
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.frmNhanVienBanHang.resources
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.frmNhanvien_Quanly.resources
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.frmNhapSach.resources
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.frmTraCuuSach.resources
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.Properties.Resources.resources
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\GUI_NHASACH.csproj.GenerateResource.cache
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\GUI_NHASACH.csproj.CoreCompileInputs.cache
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\GUI_NHASACH.csproj.CopyComplete
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.exe
+D:\hoc\bai tap lap trinh truc quan\PMQuanLyNhaSach\QUANLYNHASACH_DOAN\QUANLYNHASACH_DOAN\obj\Debug\QUANLYNHASACH_DOAN.pdb
